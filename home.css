@@ -1,0 +1,139 @@
+html{
+  height: 100%;
+  margin: 0;
+}
+
+body{
+  height: 100%;
+  margin: 0;
+}
+
+.pimg1, .pimg2{
+position: relative;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+
+/*
+fixed = parallex;
+scroll = normal;
+*/
+background-attachment: fixed;
+}
+.pimg1{
+  background-image: url("./img/IMG_1228_PS-c.jpg");
+  min-height: 100%;
+}
+
+.pimg2{
+  background-image: url("./img/IMG_1228_PS-c.jpg");
+  min-height: 100%
+}
+
+#ptext1{
+position: absolute;
+top: 25%;
+width: 100%;
+transform: translate(0, -50%);
+color: rgb(255,255,255);
+text-align: center;
+font-family: "lato", sans-serif;
+line-height: 180%;
+}
+
+#texta{
+  font-family: "lato", sans-serif;
+  font-size: 3em;
+  font-weight: 400;
+}
+
+#textb{
+  font-family: "lato", sans-serif;
+  font-size: 4em;
+  font-weight: 500;
+}
+
+#textc{
+  font-family: "lato", sans-serif;
+  font-size: 2em;
+  font-weight: 300;
+}
+
+#textd{
+  font-size: 6em;
+}
+
+#developed{
+  margin-top: 10%;
+}
+
+#developmentgroup{
+  font-family: "Georgia", sans-serif;
+  font-size: 1em;
+  font-weight: 500;
+  line-height: 20%;
+}
+
+#playvideotext{
+  font-family: "lato", sans-serif;
+  font-size: 1em;
+  font-weight: 250;
+
+}
+.goldline{
+  height: 1px;
+  width: 50%;
+  transform: translate(50%, 0);
+  border-bottom: 3px;
+  background-color: #9d875e;
+
+}
+#pimg1-both-section{
+  min-height: 100vh;
+}
+
+#pimg1-section-1{
+
+  height: 100vh;
+}
+
+#section1-title-and-text{
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  vertical-align: center;
+  height: auto;
+  text-align: center;
+  color: #9d875e;
+}
+#section1-title{
+  font-family: "lato", sans-serif;
+  font-size: 3em;
+  font-weight: normal;
+  letter-spacing: 5px;
+  padding-bottom: 2.5%;
+}
+
+#section1-text{
+  font-family: "Georgia", sans-serif;
+  font-size: 1.25em;
+  line-height: 150%;
+  padding-top: 2.5%;
+}
+
+#pimg1-section-2{
+  height: 100vh;
+}
+
+#pimg-section-2a{
+  top: 50%;
+  width: 100%;
+  transform: translate(0, -50%);
+}
+
+#textf{
+  color: rgb(255,255,255);
+  text-align: center;
+  font-family: "lato", sans-serif;
+}
