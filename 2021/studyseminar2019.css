@@ -1,0 +1,33 @@
+body{
+  background-color: orange;
+}
+#heading{
+  color: white;
+  text-align: center;
+}
+
+#webconstruct{
+  color: white;
+  text-align: center;
+}
+
+.container{
+  width: 100%;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.table{
+  width: 100%;
+  border: 2px solid white;
+  border-collapse: collapse;
+}
+tr, td, th{
+  border: 2px solid white;
+}
+
+#searchTextbox{
+  width: 100%;
+  padding-left: 16px;
+  padding-right: 16px;
+}
